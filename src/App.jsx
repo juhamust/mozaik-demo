@@ -8,6 +8,7 @@ mozaik.addBatch('heroku',  require('mozaik-ext-heroku'));
 mozaik.addBatch('travis',  require('mozaik-ext-travis'));
 mozaik.addBatch('time',    require('mozaik-ext-time'));
 mozaik.addBatch('weather', require('mozaik-ext-weather'));
+mozaik.addBatch('rss', require('mozaik-ext-rss'));
 
 React.render(<Mozaik />, document.getElementById('mozaik'));
 
