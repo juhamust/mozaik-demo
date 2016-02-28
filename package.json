@@ -27,8 +27,16 @@
   },
   "scripts": {
     "test": "npm run build-assets",
+    "build": "webpack",
     "start": "node app.js",
     "postinstall": "if $BUILD_ASSETS; then npm run build-assets; fi",
-    "build-assets": "gulp build"
+    "build-assets": "npm run build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14"
   }
 }
