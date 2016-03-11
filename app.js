@@ -1,4 +1,5 @@
 // NOTE: For some reason require() does not work with babel-node
+import './package.json';
 import Mozaik from 'mozaik';
 import config from './config';
 
