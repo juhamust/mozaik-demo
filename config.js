@@ -40,7 +40,7 @@ var config = {
             columns: 4,
             rows:    3,
             widgets: [
-                {
+                /*{
                     type: 'github.user_badge',
                     user: 'plouc',
                     columns: 1, rows: 1,
@@ -65,13 +65,13 @@ var config = {
                     repository: 'mozaik',
                     columns: 2, rows: 1,
                     x: 1, y: 1
-                },
+                },*/
                 {
                     type: 'time.clock',
                     columns: 1, rows: 1,
                     x: 3, y: 0
                 },
-                {
+                /*{
                     type: 'weather.weather',
                     city: 'Tokyo',
                     country: 'JP',
@@ -79,8 +79,8 @@ var config = {
                     limit: 2,
                     columns: 1, rows: 1,
                     x: 0, y: 1
-                },
-                {
+                },*/
+                /*{
                     type: 'travis.build_history',
                     owner: 'plouc',
                     repository: 'mozaik',
@@ -98,7 +98,7 @@ var config = {
                     type: 'github.status',
                     columns: 1, rows: 1,
                     x: 0, y: 2
-                }
+                }*/
             ]
         },
 
@@ -108,7 +108,7 @@ var config = {
             columns: 3,
             rows:    2,
             widgets: [
-                {
+                /*{
                     type: 'travis.build_history',
                     owner: 'plouc',
                     repository: 'mozaik',
@@ -134,7 +134,7 @@ var config = {
                     repository: 'mozaik',
                     columns: 2, rows: 1,
                     x: 1, y: 1
-                }
+                }*/
             ]
         }
     ]

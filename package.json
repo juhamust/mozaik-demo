@@ -20,14 +20,13 @@
     "mozaik": "1.0.10",
     "mozaik-ext-github": "1.0.6",
     "mozaik-ext-time": "1.0.0",
-    "mozaik-ext-travis": "1.0.4",
-    "mozaik-ext-weather": "1.0.0",
     "react": "^0.13.3"
   },
   "scripts": {
     "test": "npm run build-assets",
     "build": "webpack",
     "start": "babel-node app.js",
+    "restart": "npm run build && npm start",
     "postinstall": "if $BUILD_ASSETS; then npm run build-assets; fi",
     "build-assets": "npm run build"
   },
@@ -39,6 +38,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.6.0",
     "json-loader": "^0.5.4",
+    "stylus-loader": "^1.5.1",
     "webpack": "^1.12.14"
   }
 }
